@@ -1,3 +1,83 @@
+TASK-1
+# 💰 Money Tracker Web App
+
+A lightweight and responsive money tracker web application built using HTML, CSS, and JavaScript. It allows users to track their income and expenses, view a summary, and manage transactions — all stored locally using the browser’s `localStorage`.
+
+---
+
+## 🚀 Features
+
+- ➕ Add income and expense transactions
+- 📊 View total balance, income, and expenses
+- ❌ Delete individual transactions
+- 💾 Data persisted with `localStorage`
+- 📱 Responsive design for mobile and desktop
+
+---
+
+## 🔧 Tech Stack
+
+| Layer     | Technology       |
+|----------|------------------|
+| Frontend | HTML, CSS, JavaScript |
+| Storage  | Browser LocalStorage |
+
+---
+
+## 📁 Project Structure
+
+money-tracker/
+lLogin.html #For login page
+├── index.html # Main HTML file
+├── style.css # CSS for styling
+└── script.js # JavaScript functionality
+
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/money-tracker.git
+cd money-tracker
+2. Run the App
+Open the app by launching index.html in your web browser:
+
+Double-click index.html, or
+
+Use VS Code’s Live Server extension
+
+
+
+
+✨ How It Works
+Enter a transaction title and amount
+
+Click Add Transaction
+
+Transactions appear in a list with a delete (❌) button
+
+The app calculates and updates:
+
+Total Balance
+
+Total Income
+
+Total Expenses
+
+Data remains stored in browser until cleared
+
+📌 Future Enhancements
+📅 Date-based filtering and sorting
+
+📈 Monthly charts (income vs. expenses)
+
+☁️ Backend sync with user accounts
+
+📤 Export to CSV or PDF
+
+TASK-2
+
 # 📝 Dynamic Blogging Platform
 
 A full-stack dynamic web application where users can sign up, create, edit, and delete blog posts. It supports user authentication, comment sections, and a responsive design for optimal viewing on any device.
@@ -46,12 +126,6 @@ blogging-platform/
 ├── README.md
 └── package.json
 
-yaml
-Copy
-Edit
-
----
-
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -91,9 +165,6 @@ GET	/posts	View all blog posts
 PUT	/posts/:id	Edit a blog post
 DELETE	/posts/:id	Delete a blog post
 
-📸 Screenshots
-Add screenshots of your app's UI here to make the README more visual.
-
 📌 Future Enhancements
 Token-based JWT Authentication
 
@@ -106,7 +177,7 @@ Like/share/bookmark features
 Admin-only controls
 
 👨‍💻 Author
-Your Name
+K Soujanya
 
 📄 License
 This project is licensed under the MIT License.
