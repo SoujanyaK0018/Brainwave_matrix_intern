@@ -1,0 +1,20 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Blog</title>
+</head>
+<body style="background-image: linear-gradient(rgb(19, 35, 116), rgb(255, 157, 0), rgb(142, 228, 142)); margin: 10px;">
+  <h1 style="color: blanchedalmond;">Blog Posts</h1>
+  <!-- <a href="/new" style="color: darkgray;">+ New Post</a> -->
+
+  <% posts.forEach(post => { %>
+    <div class="post">
+      <h2 style="color: aqua; "><%= post.title %></h2>
+      <p><%= post.content %></p>
+      <small style="color: rgb(203, 36, 64);"><%= post.date.toDateString() %></small>
+    </div>
+  <% }) %>
+  <a href="/new" style="color: rgb(13, 2, 2);">+ New Post</a>
+</body>
+</html>
